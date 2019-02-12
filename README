@@ -1,0 +1,24 @@
+# Install
+
+    cd robotic-rovers
+    php composer.phar install
+
+# Run application
+
+    cd robotic-rovers
+    ./yii example/run
+
+# Run tests
+
+    cd robotic-rovers
+    ./vendor/bin/codecept run -vvv unit
+
+# Files
+
+commands/ExampleController.php - application controller
+
+models/Plateau.php      - model plateau
+models/Rover            - model robotic rover
+models/RoverPosition    - model rover position
+
+tests/unit/models/RoverTest.php  - test
